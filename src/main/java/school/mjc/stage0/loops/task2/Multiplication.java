@@ -10,9 +10,10 @@ public class Multiplication {
             }
         } else {
             int temp=0;
-            while(temp>multiplyByAndToInclusive){
+            int res = -1*multiplyByAndToInclusive;
+            while(temp<res){
                 System.out.println(temp*multiplyByAndToInclusive);
-                temp--;
+                temp++;
             }
         }
     }
