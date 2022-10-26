@@ -8,13 +8,13 @@ public class Multiplication {
                 System.out.println(temp*multiplyByAndToInclusive);
                 temp++;
             }
-        } else {
+        } else if (multiplyByAndToInclusive<0) {
             int temp=0;
             int res = -1*multiplyByAndToInclusive;
             while(temp<=res){
                 System.out.println(temp*multiplyByAndToInclusive);
                 temp++;
             }
-        }
+        } 
     }
 }
