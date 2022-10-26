@@ -6,7 +6,7 @@ public class WordsBuilder {
         for (int i=0; i<chars.length;i++){
             str+=chars[i];
         }
-        System.out.println(str);
+        System.out.print(str);
         
     }
 }
