@@ -2,7 +2,7 @@ package school.mjc.stage0.loops.task2;
 
 public class PowerOfTwo {
     public void printPower(int power) {
-        if (power>0){
+        if (power>=0){
             int temp=0;
             while(power>=temp){
                 System.out.println(Math.pow(2,temp));
